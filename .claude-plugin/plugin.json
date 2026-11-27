@@ -1,0 +1,16 @@
+{
+  "name": "formateur-360",
+  "version": "1.1.0",
+  "description": "Famille de skills pour mener une formation de l'idée à la session : tester la vente et la rentabilité (conseil, concurrents, panel d'acheteurs, prix, offre, CFO, marketing, logistique, lancement, dossier), concevoir le cours (cadrage, recherche sourcée, plan, ateliers, supports à la charte, cahier formateur, évaluations), le faire valider par des apprenants simulés choisis selon le public et par un jury d'experts. La partie conception intègre des contributions externes.",
+  "author": {
+    "name": "Thomas Gendera"
+  },
+  "keywords": [
+    "formation",
+    "formateur",
+    "pédagogie",
+    "rentabilité",
+    "jury",
+    "apprenants simulés"
+  ]
+}

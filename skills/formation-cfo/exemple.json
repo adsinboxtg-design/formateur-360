@@ -1,0 +1,65 @@
+{
+  "formation": "Animer une réunion qui décide (exemple fictif)",
+  "devise": "EUR",
+  "taux_journalier_cible": 800,
+  "jours_conception": 6,
+  "lancement": [
+    {"label": "Supports imprimés et cartes outils (maquette)", "cout": 400},
+    {"label": "Page de présentation et visuels", "cout": 300}
+  ],
+  "fixes_annuels": [
+    {"label": "Assurance responsabilité civile professionnelle", "cout": 450},
+    {"label": "Outils (visio, inscriptions, facturation)", "cout": 360}
+  ],
+  "formats": [
+    {
+      "nom": "Inter-entreprises",
+      "mode": "participant",
+      "prix": 450,
+      "duree_jours": 1,
+      "participants_prevus": 8,
+      "capacite": 12,
+      "sessions_annee_1": 6,
+      "commission_pct": 0,
+      "jours_prep_par_session": 0.5,
+      "couts_par_participant": [
+        {"label": "Repas et pauses", "cout": 35},
+        {"label": "Kit participant", "cout": 15}
+      ],
+      "couts_par_session": [
+        {"label": "Location de salle", "cout": 350},
+        {"label": "Déplacement", "cout": 60}
+      ]
+    },
+    {
+      "nom": "Intra",
+      "mode": "session",
+      "prix": 2900,
+      "duree_jours": 1,
+      "participants_prevus": 10,
+      "capacite": 12,
+      "sessions_annee_1": 5,
+      "commission_pct": 0,
+      "jours_prep_par_session": 1,
+      "couts_par_participant": [
+        {"label": "Kit participant", "cout": 15}
+      ],
+      "couts_par_session": [
+        {"label": "Déplacement", "cout": 120}
+      ]
+    },
+    {
+      "nom": "Sous-traitance organisme",
+      "mode": "session",
+      "prix": 900,
+      "duree_jours": 1,
+      "participants_prevus": 10,
+      "sessions_annee_1": 4,
+      "commission_pct": 0,
+      "jours_prep_par_session": 0.25,
+      "couts_par_session": [
+        {"label": "Déplacement", "cout": 60}
+      ]
+    }
+  ]
+}

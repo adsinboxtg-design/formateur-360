@@ -1,0 +1,16 @@
+{
+  "name": "formateur-360-marketplace",
+  "owner": {
+    "name": "Thomas Gendera",
+    "url": "https://github.com/adsinboxtg-design"
+  },
+  "description": "Catalogue du plugin Formateur 360",
+  "plugins": [
+    {
+      "name": "formateur-360",
+      "source": "./",
+      "description": "Mener une formation de l'idée à la session : vendre, concevoir, faire valider (apprenants simulés et jury d'experts).",
+      "category": "formation"
+    }
+  ]
+}

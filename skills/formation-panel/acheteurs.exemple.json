@@ -1,0 +1,35 @@
+{
+  "formation": "Animer une réunion qui décide (exemple fictif : 1 jour, présentiel)",
+  "cible": "Managers de proximité et chefs de projet francophones qui animent au moins une réunion par semaine",
+  "devise": "EUR",
+  "unite_prix": "en euros HT par participant pour la journée",
+  "segments": [
+    {"nom": "PME, achat par la direction ou les RH", "type": "entreprise", "role": "Responsable RH d'une PME de 80 personnes", "part": 0.35, "budget": [3000, 15000], "budget_libelle": "budget formation annuel pour l'encadrement"},
+    {"nom": "Grande entreprise, service formation", "type": "entreprise", "role": "Chargé de formation dans un groupe de 2 000 personnes", "part": 0.15, "budget": [20000, 80000], "budget_libelle": "budget annuel des formations managériales"},
+    {"nom": "Manager qui paie lui-même", "type": "particulier", "role": "Manager en reconversion ou indépendant", "part": 0.25, "budget": [200, 1200], "budget_libelle": "budget personnel annuel pour se former"},
+    {"nom": "Organisme public de formation", "type": "public", "role": "Conseiller formation dans un organisme public régional", "part": 0.10, "budget": [10000, 60000], "budget_libelle": "enveloppe annuelle pour ce type de module"},
+    {"nom": "Organisme de formation revendeur", "type": "organisme", "role": "Responsable catalogue d'un organisme de formation privé", "part": 0.15, "budget": [2000, 10000], "budget_libelle": "budget d'achat de sous-traitance par module"}
+  ],
+  "comportements": [
+    {"nom": "Compare les catalogues", "part": 0.20, "comment": "Met trois offres côte à côte avant de choisir."},
+    {"nom": "Achète sur recommandation", "part": 0.20, "comment": "Ne contacte un formateur que si quelqu'un de confiance l'a recommandé."},
+    {"nom": "Cherche un financement", "part": 0.15, "comment": "N'achète que si une aide ou un dispositif couvre une partie du coût."},
+    {"nom": "Pressé par un problème", "part": 0.15, "comment": "Un incident récent rend le sujet urgent cette année."},
+    {"nom": "Fidèle à son prestataire", "part": 0.15, "comment": "A déjà un organisme habituel et change rarement."},
+    {"nom": "Veut des preuves", "part": 0.15, "comment": "Demande références, programme détaillé et évaluation des résultats."}
+  ],
+  "objections": [
+    "Une journée, ça ne change pas les habitudes",
+    "Nos managers n'ont pas le temps de partir une journée",
+    "On a déjà fait une formation sur les réunions il y a deux ans",
+    "Je ne connais pas ce formateur",
+    "Le prix par participant est élevé pour un sujet aussi courant",
+    "Je préférerais une intervention dans nos locaux, avec nos cas"
+  ],
+  "contextes": [
+    "votre plan de formation de l'année est déjà presque bouclé",
+    "deux projets ont pris du retard à cause de réunions sans décision",
+    "vous venez de recevoir trois demandes de managers sur ce sujet",
+    "votre budget a été réduit de 20 % cette année"
+  ]
+}
