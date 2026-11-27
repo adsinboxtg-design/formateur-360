@@ -44,3 +44,7 @@ Le parcours complet est décrit dans `methodologie/formateur-360.md`.
 
 - Vente, jury d'experts, apprenants simulés supplémentaires et orchestration : Thomas Gendera.
 - Conception (cadrage, recherche, plan, ateliers, supports, cahier formateur, évaluations, premiers apprenants simulés, scripts et modèles) : contributions externes, intégrées avec l’accord de leur auteur.
+
+## Licence
+
+MIT (voir `LICENSE`), pour l'ensemble du plugin, partie conception comprise.
