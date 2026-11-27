@@ -6,7 +6,9 @@ Un plugin Claude pour mener une formation de l'idée à la première session, en
 2. **Concevoir** : cadrage, recherche documentaire sourcée, plan avec fil rouge, ateliers, supports à votre charte, cahier du formateur, évaluations.
 3. **Faire valider** : apprenants simulés choisis selon votre public, puis jury d'experts simulés qui note le cours sur une grille commune.
 
-## Installer
+[Version ChatGPT : présentation, assistance et confidentialité](docs/chatgpt.md)
+
+## Installer dans Claude Code
 
 Dans Claude Code :
 
@@ -47,4 +49,4 @@ Le parcours complet est décrit dans `methodologie/formateur-360.md`.
 
 ## Licence
 
-MIT (voir `LICENSE`), pour l'ensemble du plugin, partie conception comprise.
+MIT (voir `LICENSE`), pour l’ensemble du plugin, partie conception comprise.
